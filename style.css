@@ -1,0 +1,58 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f3e8d4;
+}
+
+main {
+  width: 750px;
+}
+
+h3 {
+  margin-top: 7px;
+}
+
+h2 {
+  text-transform: capitalize;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+div {
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 7px;
+}
+
+#sister div {
+  background-color: #f5f1e9;
+}
+
+#bizarro-world div {
+  background-color: #0C172B;
+}
+
+#bizarro-world h3 {
+  color: white;
+}
+
+#sister a {
+  color: #008181;
+}
+
+#bizarro-world a {
+  color: #ff8e8e;
+}
+
+#sister a:visited {
+  color: #11bb11;
+}
+
+#bizarro-world a:visited {
+  color: #CD32CD;
+}
+
+main a {
+  display: block;
+  margin-bottom: 7px;
+  text-decoration: none;
+}
