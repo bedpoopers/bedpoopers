@@ -6,7 +6,6 @@
 
   function init() {
     let photos = document.querySelectorAll('.photo');
-    console.log(photos);
     for (let i = 0; i < photos.length; i++) {
       let x = Math.floor((Math.random() * 352)+1);;
       photos[i].src = "img/img (" + x + ").jpg";
@@ -16,7 +15,6 @@
   }
 
   function changePhoto(){
-    console.log("changePhoto called");
     let x = Math.floor((Math.random() * 352)+1);;
     this.src = "img/img (" + x + ").jpg";
   }
