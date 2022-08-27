@@ -1,23 +1,31 @@
-'use strict';
-(function() {
-  const NUMPHOTOS = 352;
-
-  window.addEventListener('load', init);
-
-  function init() {
-    let photos = document.querySelectorAll('.photo');
-    console.log(photos);
-    for (let i = 0; i < photos.length; i++) {
-      let x = Math.floor((Math.random() * 352)+1);;
-      photos[i].src = "img/img (" + x + ").jpg";
-      photos[i].addEventListener('mouseover', changePhoto);
-      photos[i].addEventListener('click', changePhoto);
-    }
-  }
-
-  function changePhoto(){
-    console.log("changePhoto called");
-    let x = Math.floor((Math.random() * 352)+1);;
-    this.src = "img/img (" + x + ").jpg";
-  }
-})();
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>poopers</title>
+    <script src='index.js'></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <img src="text.gif">
+    </header>
+    <main>
+      <section id="top">
+        <img class="photo" src="img/img (1).jpg">
+        <img class="photo" src="img/img (10).jpg">
+        <img class="photo" src="img/img (100).jpg">
+      </section>
+      <section id="middle">
+        <img class="photo" src="img/img (344).jpg">
+        <a href="https://instagram.com/bedpoopers" target="_blank"><img class="logo" src="logo.png"></a>
+        <img class="photo" src="img/img (200).jpg">
+      </section>
+      <section id="bottom">
+        <img class="photo" src="img/img (3).jpg">
+        <img class="photo" src="img/img (30).jpg">
+        <img class="photo" src="img/img (300).jpg">
+      </section>
+    </main>
+  </body>
+</html>
