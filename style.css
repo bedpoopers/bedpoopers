@@ -3,7 +3,7 @@ section {
   justify-content: center;
 }
 
-img {
+img, a {
   display: block;
   margin-left: auto;
   margin-right: auto;
