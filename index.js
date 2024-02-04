@@ -1,6 +1,6 @@
 'use strict';
 (function() {
-  const NUMPHOTOS = 636;
+  const NUMPHOTOS = 715;
 
   window.addEventListener('load', init);
 
